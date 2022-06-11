@@ -1,0 +1,18 @@
+@media (max-width: 768px){
+    nav, .logo, .cabecalho{
+        display: none;
+    }
+}
+@media (min-width: 768px){
+    .hamb{
+        display: none;
+    }
+}
+@media (min-width: 768px){
+    .nav{
+        display: none;
+    }
+}
+
+
+

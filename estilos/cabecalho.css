@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+body{
+    background-color: white;
+    margin: auto;
+}
+header{
+    width: 100vw;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(196, 253, 234);
+}
+.cabecalho{
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo > img{
+    width: 50px;
+}
+nav{
+    display: inline;
+    background-color: rgb(178, 238, 223);
+    padding: 10px 0px;
+}
+nav > a{
+    color: rgb(26, 168, 121);
+    padding: 10px;
+    text-decoration: none;
+}
+nav > .button{
+    display: inline;
+    margin-left: 100px;    
+}
+nav > .button > a{
+    color: rgb(26, 168, 121);
+    padding: 10px;
+    text-decoration: none;
+}
+nav > .button > a:hover{
+    color: white;
+    transition-duration: 0.4s;
+    background-color: rgb(70, 70, 70);
+}
+nav > .button > a:focus{
+    color: white;
+    background-color: rgb(26, 168, 121);
+}
+nav > a:hover{
+    color: white;
+    transition-duration: 0.4s;
+    background-color: rgb(70, 70, 70);
+}
+nav > a:focus{
+    color: white;
+    background-color: rgb(26, 168, 121);
+}
+
+/*______________________________________________________________*/
+
+#opc, #opca, #opcb, #opcc, #opcd{
+    visibility: hidden;
+    margin-top: 10px;
+    list-style: none;
+    
+    background-color: rgb(142, 240, 207);
+    position: absolute;
+}
+#opca{
+    transform: translate(67px);
+}
+#opcb{
+    transform: translate(165px);
+}
+#opcc{
+    transform: translate(226px);
+}
+#opcd{
+    transform: translate(293px);
+}
+
+/*______________________________________________________________*/
+
+#opc > li{
+    padding: 7px;
+}
+#opca > li{
+    padding: 7px;
+}
+#opcb > li{
+    padding: 7px;
+}
+#opcc > li{
+    padding: 7px;
+}
+#opcd > li{
+    padding: 7px;
+}
+
+#opc > li:hover{
+    background-color: rgb(103, 207, 172);
+}
+#opca > li:hover{
+    background-color: rgb(103, 207, 172);
+}
+#opcb > li:hover{
+    background-color: rgb(103, 207, 172);
+}
+#opcc > li:hover{
+    background-color: rgb(103, 207, 172);
+}
+#opcd > li:hover{
+    background-color: rgb(103, 207, 172);
+}
+
+
+#opc > li > a{
+    text-decoration: none;
+    color: rgb(26, 168, 121);
+}
+#opca > li > a{
+    text-decoration: none;
+    color: rgb(26, 168, 121);
+}
+#opcb > li > a{
+    text-decoration: none;
+    color: rgb(26, 168, 121);
+}
+#opcc > li > a{
+    text-decoration: none;
+    color: rgb(26, 168, 121);
+}
+#opcd > li > a{
+    text-decoration: none;
+    color: rgb(26, 168, 121);
+}
+
+
+#opc > li:hover > a{
+    color: white;
+}
+#opca > li:hover > a{
+    color: white;
+}
+#opcb > li:hover > a{
+    color: white;
+}
+#opcc > li:hover > a{
+    color: white;
+}
+#opcd > li:hover > a{
+    color: white;
+}
+
+/*______________________________________________________________________________________________________*/
+
+
+.hamb {
+    display: flex; 
+    
+    justify-content: center;
+}
+.hamb > a >.hamba{
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 3px;
+    width: 30px;
+    height: 5px;
+    background-color: rgb(26, 168, 121);
+}
+.link{
+    display: inline-block;
+}
+
+
+
+
+#nave{
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    margin: 44px auto;
+    position: absolute;
+    display: inline;
+    align-content: center;
+    background-color: rgb(178, 238, 223);
+    padding: 10px 0px;
+}
+.nav > a{
+    color: rgb(26, 168, 121);
+    padding: 10px;
+    text-decoration: none;
+}
+.nav > a:hover{
+    color: white;
+    transition-duration: 0.4s;
+    background-color: rgb(70, 70, 70);
+}
+.nav > a:focus{
+    color: white;
+    background-color: rgb(26, 168, 121);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#list1, #list2, #list3, #list4, #list5{
+    visibility: hidden;
+    margin-top: 10px;
+    list-style: none;
+    
+    background-color: rgb(142, 240, 207);
+    position: absolute;
+}
+#list2{
+    transform: translate(67px);
+}
+#list3{
+    transform: translate(165px);
+}
+#list4{
+    transform: translate(226px);
+}
+#list5{
+    transform: translate(293px);
+}
+
+/*______________________________________________________________*/
+
+#list1 > li{
+    padding: 7px;
+}
+#list2 > li{
+    padding: 7px;
+}
+#list3 > li{
+    padding: 7px;
+}
+#list4 > li{
+    padding: 7px;
+}
+#list5 > li{
+    padding: 7px;
+}
+
+
+
+
+
+#list1 > li:hover{
+    background-color: rgb(103, 207, 172);
+}
+#list2 > li:hover{
+    background-color: rgb(103, 207, 172);
+}
+#list3 > li:hover{
+    background-color: rgb(103, 207, 172);
+}
+#list4 > li:hover{
+    background-color: rgb(103, 207, 172);
+}
+#list5 > li:hover{
+    background-color: rgb(103, 207, 172);
+}
+
+
+
+#list1 > li > a{
+    text-decoration: none;
+    color: rgb(26, 168, 121);
+}
+#list2 > li > a{
+    text-decoration: none;
+    color: rgb(26, 168, 121);
+}
+#list3 > li > a{
+    text-decoration: none;
+    color: rgb(26, 168, 121);
+}
+#list4 > li > a{
+    text-decoration: none;
+    color: rgb(26, 168, 121);
+}
+#list5 > li > a{
+    text-decoration: none;
+    color: rgb(26, 168, 121);
+}
+
+
+#list1 > li:hover > a{
+    color: white;
+}
+#list2 > li:hover > a{
+    color: white;
+}
+#list3 > li:hover > a{
+    color: white;
+}
+#list4 > li:hover > a{
+    color: white;
+}
+#list5 > li:hover > a{
+    color: white;
+}

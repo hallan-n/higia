@@ -1,0 +1,73 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+header{
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.container-container-nav{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1000px;
+    
+}
+.container-img > img{
+    width: 180%;
+}
+.container-nav{
+    display: flex;
+    padding: 5px 0;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    
+}
+.container > a{
+    padding: 7px;
+    text-decoration: none;
+    background-color: rgb(142, 240, 207);
+}
+.container > a:hover{
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+.container > a:focus{
+    background-color: rgb(26, 168, 121);
+    color: white;
+}
+
+.container > ul{
+    position: absolute;
+    list-style: none;
+    margin: 7px 0;
+    background-color: rgb(192, 248, 229);
+}
+.container > ul > li{
+    padding: 5px;
+}
+#inicio, #contato, #blog, #sobre, #forum{
+    visibility: hidden;
+}
+#login{
+    margin: 0 10px;
+}
+#login > a{
+    border-left: 2px solid black;
+}
+.container > ul > li > a{
+    text-decoration: none;
+}
+.container > ul > li:hover{
+    background-color: rgb(114, 179, 159);
+}
+.container > ul > li > a:hover{
+    background-color: rgb(114, 179, 159);
+    color: white;
+}
